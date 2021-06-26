@@ -1,0 +1,45 @@
+linear_search :
+    Performs linear search to find the index of `x` in `arr`.
+
+    Parameters
+    ----------
+    arr : list of int
+    x : int
+
+    Returns
+    -------
+    int
+        the index `i` such that `x == arr[i]` if such `i` exists,
+        otherwise -1
+
+binary_search:
+
+    Performs binary search on already sorted list to find the index for `x` in `arr`.
+
+    Parameters
+    ----------
+    arr : list of int
+        already sorted in ascending order
+    x : int
+
+    Returns
+    -------
+    int
+        the smallest index `i` such that `x < arr[i]` while assuming that
+        the imaginary leftmost element of `arr` is negative infinity and
+        the imaginary rightmost element of `arr` is positive infinity
+        (if `x` is greater than or equal to every element in `arr`, then return the length of `arr`)
+
+distinct:
+    Tests whether all elements in given list are distinct or not.
+    (Please implement it using hashing as in lecture slides.)
+
+    Parameters
+    ----------
+    arr : list of int
+        nonempty list whose length is at most 20,000 and whose elements are positive
+    Returns
+    -------
+    bool
+        `True` if all elements are distinct,
+        `False` otherwise
