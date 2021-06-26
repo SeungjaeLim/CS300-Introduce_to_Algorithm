@@ -1,0 +1,4 @@
+Given a connected weighted undirected graph G := (V, E, w), 
+a minimum spanning tree T is a tree whose nodes are V and edges are a subset of E such that the sum of all edges’ weights become minimal.
+
+We use adjacency matrix to represent both input and output of Prim’s algorithm.
