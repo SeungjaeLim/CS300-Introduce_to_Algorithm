@@ -1,0 +1,2 @@
+2D Range Counting
+Given [N][N] integer points and [Q][Q] rectangles on xy-plane, find the number of points for each rectangle.
