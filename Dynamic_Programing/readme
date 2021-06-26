@@ -1,0 +1,5 @@
+Given an array A[0..N+1] of numbers, 
+you remove N numbers one by one except A[0]] and A[N+1]. 
+When A[i] is eliminated, A[i-1] and A[i+1] become adjacent to each other. 
+Also, you acquire A[i-1]\times A[i−1]×A[i]×A[i+1] points and add it to the score, which is initially 0. 
+After N eliminations, what is the maximum score achievable?
